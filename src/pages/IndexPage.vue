@@ -2,7 +2,7 @@
   <q-page padding>
     <div class="row q-mb-lg">
       <q-input v-model="newTask" placeholder="Ajouter un nom" class="col" @keyup.enter="addTask"/>
-        <q-btn color="light-green" size="sm" label="Ajouter" @click.native="addTask" style="background-color: #026b33; color:white;"/> 
+        <q-btn size="sm" label="Ajouter" @click.native="addTask" style="background-color: #026b33; color:white;"/> 
     </div>
 
 
